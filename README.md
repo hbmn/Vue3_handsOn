@@ -1,4 +1,4 @@
-# Vue3_handsOn
+# Vue3_HandsOn
 
 Vue3 の練習として公式リファレンスの HansOn を作成しました。
 
