@@ -1,8 +1,10 @@
-# Vue 3 + Vite
+Vue3 の練習として公式リファレンスの HansOn を作成しました。
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+・購入するボタンはコンポーネントとしてインポートし、そこに v-on でボタンを押したらアラート表示されるイベントを実行。<br>さらにアラートには現在の時刻を購入時刻として表示<br>
+・表品の画像、タイトル、テキスト、値段はオブジェクトリテラルにし、v-for でレンダリング表示。<br>
+・クリックして true になったら v-if で背景色をつける処理を実行。<br>
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+※ケージマネージャーは yarn<br>
+node_modules は除いてあるので<em>yarn</em>を行う。<br>
+<em>yarn dev</em>でローカルサーバー立ち上げ。
 # Vue3_handsOn
